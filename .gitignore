@@ -1,0 +1,17 @@
+# Datos (Bloomberg, no redistribuibles) y fuentes externas
+data/*.xlsx
+data/externo/
+data/cache/
+
+# Salidas regeneradas al correr
+salidas/
+experimentos/figs_*/
+experimentos/exp0*_*.csv
+experimentos/exp10_*.csv
+!experimentos/exp12_tests_finales.csv
+
+# Python / sistema
+__pycache__/
+*.pyc
+.DS_Store
+.spyproject/
