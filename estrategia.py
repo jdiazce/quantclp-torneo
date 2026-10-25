@@ -53,6 +53,7 @@ SALIDAS = RAIZ / "salidas"
 SALIDAS.mkdir(parents=True, exist_ok=True)
 
 CURVA_DESDE = "2023-01-01"        # inicio de la curva
+SELECCION = ("2023-01-01", "2025-04-04")   # ventana de selección (probabilidades)
 HOLDOUT_DESDE = "2025-04-07"      # tramo fuera de muestra (para marcarlo en la curva)
 COSTO_CLP = 0.50
 POS_COMPRAR = 3.0
@@ -106,6 +107,28 @@ for k in idx:
 sen = pd.DataFrame(reg).set_index("fecha")
 
 # ----------------------------------------------------------------------
+# PROBABILIDAD EMPÍRICA: acierto por nivel de exposición en la ventana de
+# selección (solo datos previos al holdout). P(sube) = acierto si la posición es
+# positiva, 1 − acierto si es negativa, frecuencia de alzas si es 0.
+# ----------------------------------------------------------------------
+_h = sen.iloc[:-1]
+_k = _h["k"].to_numpy()
+_r = det.C[_k + 1] / det.C[_k] - 1
+_sel = (_h.index >= pd.Timestamp(SELECCION[0])) & (_h.index <= pd.Timestamp(SELECCION[1]))
+_p = _h["pos"].to_numpy()
+ACIERTO = {n: float(np.mean(np.sign(_p[m]) == np.sign(_r[m])))
+           for n, m in {1: _sel & (np.abs(_p) == 1), 3: _sel & (np.abs(_p) == 3)}.items()}
+P_ALZA = float(np.mean(_r[_sel] > 0))
+
+
+def prob_sube(p):
+    if p == 0:
+        return P_ALZA
+    a = ACIERTO[abs(int(p))]
+    return a if p > 0 else 1 - a
+
+
+# ----------------------------------------------------------------------
 # 1) SEÑAL DEL DÍA
 # ----------------------------------------------------------------------
 hoy = sen.iloc[-1]
@@ -127,6 +150,8 @@ print(f"  Dirección esperada : {direccion}")
 print(f"  Posición           : {pos:+d}")
 print(f"  Caso               : {hoy['caso']} — {DESCRIPCION.get(hoy['caso'], '')}")
 print(f"  Triángulo          : {TIPOS.get(hoy['tipo'], hoy['tipo'])}")
+print(f"  P(sube) estimada   : {prob_sube(pos):.1%}  (acierto histórico del nivel "
+      f"en {SELECCION[0][:4]}–{SELECCION[1][:7]})")
 print(f"  Convicción         : {conv}")
 if hoy["tris"]:
     print("  Triángulos detectados hoy:")
@@ -143,7 +168,8 @@ else:
 with open(SALIDAS / "senal_del_dia.json", "w", encoding="utf-8") as fh:
     json.dump({"fecha_cierre": str(F[k].date()), "usdclp": round(float(det.C[k]), 2),
                "posicion": pos, "direccion": direccion, "caso": hoy["caso"],
-               "tipo": hoy["tipo"], "conviccion": conv}, fh, ensure_ascii=False, indent=2)
+               "tipo": hoy["tipo"], "prob_sube": round(prob_sube(pos), 3),
+               "conviccion": conv}, fh, ensure_ascii=False, indent=2)
 
 # ----------------------------------------------------------------------
 # 2) CURVA DE RESULTADO
