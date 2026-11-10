@@ -1,0 +1,49 @@
+bloque,prueba,ventana,valor,p,nota
+A retraso,0 días,Selección,14.875433807998212,,
+A retraso,0 días,Holdout,11.729577217249087,,
+A retraso,1 días,Selección,5.0718604390210515,,
+A retraso,1 días,Holdout,11.557993436562192,,
+A retraso,2 días,Selección,7.824538866017552,,
+A retraso,2 días,Holdout,8.713758844264216,,
+A retraso,3 días,Selección,17.965700484718973,,
+A retraso,3 días,Holdout,6.245566239257941,,
+B placebo,desplazamiento circular,Selección,-1.647273596781243,0.1295971978984238,n=571; real=14.88
+B placebo,signo al azar por operación,Selección,-2.8926057115815267,0.1089,n=10000; real=14.88
+B placebo,desplazamiento circular,Holdout,-2.2543241178894178,0.026595744680851064,n=376; real=11.73
+B placebo,signo al azar por operación,Holdout,-1.6419603884557676,0.0436,n=10000; real=11.73
+C bootstrap,vs No operar,Holdout,5.0,0.0744,valor = largo medio del bloque
+C bootstrap,vs Siempre +1,Holdout,5.0,0.119,valor = largo medio del bloque
+C bootstrap,vs Comprar siempre (+3),Holdout,5.0,0.3182,valor = largo medio del bloque
+C bootstrap,vs No operar,Holdout,10.0,0.0574,valor = largo medio del bloque
+C bootstrap,vs Siempre +1,Holdout,10.0,0.1088,valor = largo medio del bloque
+C bootstrap,vs Comprar siempre (+3),Holdout,10.0,0.3102,valor = largo medio del bloque
+C bootstrap,vs No operar,Holdout,20.0,0.0367,valor = largo medio del bloque
+C bootstrap,vs Siempre +1,Holdout,20.0,0.1106,valor = largo medio del bloque
+C bootstrap,vs Comprar siempre (+3),Holdout,20.0,0.3011,valor = largo medio del bloque
+D Sharpe deflactado,N = 24,Selección,0.7882613276468345,,Sharpe anual 0.64; umbral esperado por azar 0.11; var. entre 12 variantes O=A
+D Sharpe deflactado,N = 56,Selección,0.7799756758196063,,Sharpe anual 0.64; umbral esperado por azar 0.13; var. entre 12 variantes O=A
+D Sharpe deflactado,PSR (N = 1),Holdout,0.8966713381079519,,probabilidad de que el Sharpe verdadero sea > 0
+E operaciones,operaciones,Selección,13.0,,
+E operaciones,% ganadoras,Selección,38.46153846153847,,
+E operaciones,ganancia media %,Selección,5.628701603870725,,
+E operaciones,pérdida media %,Selección,-1.6585092764194278,,
+E operaciones,ganancia/pérdida,Selección,3.3938318488170203,,
+E operaciones,factor de beneficio,Selección,2.1211449055106377,,
+E operaciones,duración media (días),Selección,20.23076923076923,,
+E operaciones,duración mediana,Selección,10.0,,
+E operaciones,mejor %,Selección,7.150418087850065,,
+E operaciones,peor %,Selección,-3.6868868507005685,,
+E operaciones,largas,Selección,8.0,,
+E operaciones,cortas,Selección,5.0,,
+E operaciones,operaciones,Holdout,12.0,,
+E operaciones,% ganadoras,Holdout,58.333333333333336,,
+E operaciones,ganancia media %,Holdout,2.147595978482522,,
+E operaciones,pérdida media %,Holdout,-0.6607189264257137,,
+E operaciones,ganancia/pérdida,Holdout,3.25039270495906,,
+E operaciones,factor de beneficio,Holdout,4.550549786942685,,
+E operaciones,duración media (días),Holdout,12.75,,
+E operaciones,duración mediana,Holdout,4.5,,
+E operaciones,mejor %,Holdout,4.515600159771234,,
+E operaciones,peor %,Holdout,-1.6470762815484277,,
+E operaciones,largas,Holdout,8.0,,
+E operaciones,cortas,Holdout,4.0,,

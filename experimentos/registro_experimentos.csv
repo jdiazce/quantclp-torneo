@@ -55,3 +55,107 @@ timestamp,experimento,desde,hasta,costo,vigencia,retest_max,hold3,apoyo_atr,tol_
 2026-10-24T21:55:07,13_compresion_2005-2018,2005-01-01,2018-12-31,,,,,,,,,,,,,,,False
 2026-10-24T21:55:07,13_compresion_Seleccion,2023-01-01,2025-04-04,,,,,,,,,,,,,,,False
 2026-10-24T21:55:07,13_compresion_Holdout,2025-04-07,2026-09-21,,,,,,,,,,,,,,,False
+2026-11-10T19:30:00,14_anatomia_detector (descriptivo; embudo de filtros),2023-01-01,2026-10-06,,,,,,,,,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_TOL_ATR=0.36_seleccion,2023-01-01,2025-04-04,0.5,,,,,0.36,20.295,0.926,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_TOL_ATR=0.36_holdout,2025-04-07,2026-10-05,0.5,,,,,0.36,4.105,0.378,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_TOL_ATR=0.54_seleccion,2023-01-01,2025-04-04,0.5,,,,,0.54,27.125,1.137,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_TOL_ATR=0.54_holdout,2025-04-07,2026-10-05,0.5,,,,,0.54,5.454,0.508,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_CONTRACCION_MIN=1.04_seleccion,2023-01-01,2025-04-04,0.5,,,,,,14.875,0.636,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_CONTRACCION_MIN=1.04_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_CONTRACCION_MIN=1.56_seleccion,2023-01-01,2025-04-04,0.5,,,,,,14.875,0.636,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_CONTRACCION_MIN=1.56_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_CONTENCION_MIN=0.75_seleccion,2023-01-01,2025-04-04,0.5,,,,,,18.951,0.914,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_CONTENCION_MIN=0.75_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.48,0.942,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_CONTENCION_MIN=0.95_seleccion,2023-01-01,2025-04-04,0.5,,,,,,11.328,0.537,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_CONTENCION_MIN=0.95_holdout,2025-04-07,2026-10-05,0.5,,,,,,6.253,0.527,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_SPAN_MIN=20_seleccion,2023-01-01,2025-04-04,0.5,,,,,,14.937,0.607,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_SPAN_MIN=20_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.661,0.948,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_SPAN_MIN=30_seleccion,2023-01-01,2025-04-04,0.5,,,,,,20.299,0.886,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_SPAN_MIN=30_holdout,2025-04-07,2026-10-05,0.5,,,,,,12.683,1.002,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_SPAN_MAX=176_seleccion,2023-01-01,2025-04-04,0.5,,,,,,14.875,0.636,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_SPAN_MAX=176_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_SPAN_MAX=264_seleccion,2023-01-01,2025-04-04,0.5,,,,,,14.875,0.636,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_SPAN_MAX=264_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_ALTURA_MIN_ATR=1.2_seleccion,2023-01-01,2025-04-04,0.5,,,,,,14.875,0.636,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_ALTURA_MIN_ATR=1.2_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_ALTURA_MIN_ATR=1.8_seleccion,2023-01-01,2025-04-04,0.5,,,,,,14.875,0.636,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_ALTURA_MIN_ATR=1.8_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_ALTURA_MAX_ATR=6.4_seleccion,2023-01-01,2025-04-04,0.5,,,,,,6.542,0.454,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_ALTURA_MAX_ATR=6.4_holdout,2025-04-07,2026-10-05,0.5,,,,,,7.681,0.64,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_ALTURA_MAX_ATR=9.6_seleccion,2023-01-01,2025-04-04,0.5,,,,,,16.429,0.743,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_ALTURA_MAX_ATR=9.6_holdout,2025-04-07,2026-10-05,0.5,,,,,,8.689,0.745,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_W_PIVOTE=2_seleccion,2023-01-01,2025-04-04,0.5,,,,,,3.467,0.137,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_W_PIVOTE=2_holdout,2025-04-07,2026-10-05,0.5,,,,,,1.916,0.168,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_W_PIVOTE=4_seleccion,2023-01-01,2025-04-04,0.5,,,,,,4.246,0.236,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_W_PIVOTE=4_holdout,2025-04-07,2026-10-05,0.5,,,,,,4.114,0.363,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_TOQUES_TOTAL=4_seleccion,2023-01-01,2025-04-04,0.5,,,,,,21.744,0.965,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_TOQUES_TOTAL=4_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_TOQUES_TOTAL=6_seleccion,2023-01-01,2025-04-04,0.5,,,,,,16.304,0.786,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_TOQUES_TOTAL=6_holdout,2025-04-07,2026-10-05,0.5,,,,,,9.295,0.73,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_APICE_MAX=1.2_seleccion,2023-01-01,2025-04-04,0.5,,,,,,10.725,0.492,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_APICE_MAX=1.2_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_APICE_MAX=1.8_seleccion,2023-01-01,2025-04-04,0.5,,,,,,13.739,0.603,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_APICE_MAX=1.8_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_MECHA_MAX_ATR=0.8_seleccion,2023-01-01,2025-04-04,0.5,,,,,,15.139,0.674,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_MECHA_MAX_ATR=0.8_holdout,2025-04-07,2026-10-05,0.5,,,,,,12.44,1.062,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_MECHA_MAX_ATR=1.2_seleccion,2023-01-01,2025-04-04,0.5,,,,,,7.688,0.323,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_MECHA_MAX_ATR=1.2_holdout,2025-04-07,2026-10-05,0.5,,,,,,7.727,0.725,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_ATR_N=11_seleccion,2023-01-01,2025-04-04,0.5,,,,,,21.281,0.919,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_ATR_N=11_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.508,0.99,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_ATR_N=17_seleccion,2023-01-01,2025-04-04,0.5,,,,,,5.284,0.219,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_ATR_N=17_holdout,2025-04-07,2026-10-05,0.5,,,,,,9.161,0.846,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_CLUSTER_ATR=0.4_seleccion,2023-01-01,2025-04-04,0.5,,,,,,21.339,1.037,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_CLUSTER_ATR=0.4_holdout,2025-04-07,2026-10-05,0.5,,,,,,8.776,0.655,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_CLUSTER_ATR=0.6_seleccion,2023-01-01,2025-04-04,0.5,,,,,,13.246,0.58,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_CLUSTER_ATR=0.6_holdout,2025-04-07,2026-10-05,0.5,,,,,,12.44,1.062,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_APOYO_MAX_ATR=0.48_seleccion,2023-01-01,2025-04-04,0.5,,,,0.48,,13.739,0.603,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_APOYO_MAX_ATR=0.48_holdout,2025-04-07,2026-10-05,0.5,,,,0.48,,10.931,0.911,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_APOYO_MAX_ATR=0.72_seleccion,2023-01-01,2025-04-04,0.5,,,,0.72,,18.409,0.753,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_APOYO_MAX_ATR=0.72_holdout,2025-04-07,2026-10-05,0.5,,,,0.72,,12.949,1.091,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_N_CONFIRMA=2_seleccion,2023-01-01,2025-04-04,0.5,,,,,,20.149,0.796,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_N_CONFIRMA=2_holdout,2025-04-07,2026-10-05,0.5,,,,,,12.313,0.954,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_N_CONFIRMA=4_seleccion,2023-01-01,2025-04-04,0.5,,,,,,13.782,0.59,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_N_CONFIRMA=4_holdout,2025-04-07,2026-10-05,0.5,,,,,,10.99,0.936,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_VIGENCIA_B_MAX=48_seleccion,2023-01-01,2025-04-04,0.5,48.0,,,,,12.564,0.579,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_VIGENCIA_B_MAX=48_holdout,2025-04-07,2026-10-05,0.5,48.0,,,,,7.952,0.686,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_VIGENCIA_B_MAX=72_seleccion,2023-01-01,2025-04-04,0.5,72.0,,,,,17.856,0.749,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_VIGENCIA_B_MAX=72_holdout,2025-04-07,2026-10-05,0.5,72.0,,,,,12.506,1.022,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_STOP_B_ATR=0.8_seleccion,2023-01-01,2025-04-04,0.5,,,,,,14.875,0.636,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_STOP_B_ATR=0.8_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_STOP_B_ATR=1.2_seleccion,2023-01-01,2025-04-04,0.5,,,,,,14.875,0.636,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_STOP_B_ATR=1.2_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_DIAS_VOLVER=1_seleccion,2023-01-01,2025-04-04,0.5,,,,,,14.875,0.636,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_DIAS_VOLVER=1_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_DIAS_VOLVER=3_seleccion,2023-01-01,2025-04-04,0.5,,,,,,10.139,0.427,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_DIAS_VOLVER=3_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.73,1.0,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_HOLD_3=2_seleccion,2023-01-01,2025-04-04,0.5,,,2.0,,,15.656,0.707,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_HOLD_3=2_holdout,2025-04-07,2026-10-05,0.5,,,2.0,,,7.241,0.701,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_HOLD_3=4_seleccion,2023-01-01,2025-04-04,0.5,,,4.0,,,11.864,0.478,,,,,,,False
+2026-11-10T20:10:00,15_sensibilidad_HOLD_3=4_holdout,2025-04-07,2026-10-05,0.5,,,4.0,,,10.599,0.855,,,,,,,False
+2026-11-10T20:40:00,16_retraso_1d_seleccion,2023-01-01,2025-04-04,0.5,,,,,,5.072,,,,,,,,False
+2026-11-10T20:40:00,16_retraso_1d_holdout,2025-04-07,2026-10-05,0.5,,,,,,11.558,,,,,,,,False
+2026-11-10T20:40:00,16_retraso_2d_seleccion,2023-01-01,2025-04-04,0.5,,,,,,7.825,,,,,,,,False
+2026-11-10T20:40:00,16_retraso_2d_holdout,2025-04-07,2026-10-05,0.5,,,,,,8.714,,,,,,,,False
+2026-11-10T20:40:00,16_retraso_3d_seleccion,2023-01-01,2025-04-04,0.5,,,,,,17.966,,,,,,,,False
+2026-11-10T20:40:00,16_retraso_3d_holdout,2025-04-07,2026-10-05,0.5,,,,,,6.246,,,,,,,,False
+2026-11-10T20:40:00,16_placebo_circular_seleccion (neto=media placebo; p en p_boot),2023-01-01,2025-04-04,0.5,,,,,,-1.647,,,0.1296,,,,,False
+2026-11-10T20:40:00,16_placebo_signo_azar_seleccion (neto=media placebo; p en p_boot),2023-01-01,2025-04-04,0.5,,,,,,-2.893,,,0.1089,,,,,False
+2026-11-10T20:40:00,16_placebo_circular_holdout (neto=media placebo; p en p_boot),2025-04-07,2026-10-05,0.5,,,,,,-2.254,,,0.0266,,,,,False
+2026-11-10T20:40:00,16_placebo_signo_azar_holdout (neto=media placebo; p en p_boot),2025-04-07,2026-10-05,0.5,,,,,,-1.642,,,0.0436,,,,,False
+2026-11-10T20:40:00,16_bootstrap_bloque5_holdout (p_boot vs 0; p_vs_+1),2025-04-07,2026-10-05,0.5,,,,,,11.73,,,0.0744,0.119,,,,False
+2026-11-10T20:40:00,16_bootstrap_bloque10_holdout (p_boot vs 0; p_vs_+1),2025-04-07,2026-10-05,0.5,,,,,,11.73,,,0.0574,0.1088,,,,False
+2026-11-10T20:40:00,16_bootstrap_bloque20_holdout (p_boot vs 0; p_vs_+1),2025-04-07,2026-10-05,0.5,,,,,,11.73,,,0.0367,0.1106,,,,False
+2026-11-10T21:00:00,17_ml_logit_pm1_2010-2018 (AUC 0.542),2010-01-01,2018-12-31,0.5,,,,,,-51.611,-0.592,,,,,,,False
+2026-11-10T21:00:00,17_ml_logit_abstencion_2010-2018 (AUC 0.542),2010-01-01,2018-12-31,0.5,,,,,,-25.279,-0.37,,,,,,,False
+2026-11-10T21:00:00,17_ml_bosque_aleatorio_pm1_2010-2018 (AUC 0.537),2010-01-01,2018-12-31,0.5,,,,,,-46.469,-0.534,,,,,,,False
+2026-11-10T21:00:00,17_ml_bosque_aleatorio_abstencion_2010-2018 (AUC 0.537),2010-01-01,2018-12-31,0.5,,,,,,-50.556,-0.729,,,,,,,False
+2026-11-10T21:00:00,17_ml_gradient_boosting_pm1_2010-2018 (AUC 0.524),2010-01-01,2018-12-31,0.5,,,,,,-121.466,-1.391,,,,,,,False
+2026-11-10T21:00:00,17_ml_gradient_boosting_abstencion_2010-2018 (AUC 0.524),2010-01-01,2018-12-31,0.5,,,,,,-83.96,-1.093,,,,,,,False
+2026-11-10T21:00:00,17_ml_logit_pm1_seleccion (AUC 0.529),2023-01-01,2025-04-04,0.5,,,,,,-47.731,-1.566,,,,,,,False
+2026-11-10T21:00:00,17_ml_logit_abstencion_seleccion (AUC 0.529),2023-01-01,2025-04-04,0.5,,,,,,-23.721,-0.998,,,,,,,False
+2026-11-10T21:00:00,17_ml_bosque_aleatorio_pm1_seleccion (AUC 0.533),2023-01-01,2025-04-04,0.5,,,,,,-21.219,-0.695,,,,,,,False
+2026-11-10T21:00:00,17_ml_bosque_aleatorio_abstencion_seleccion (AUC 0.533),2023-01-01,2025-04-04,0.5,,,,,,-8.616,-0.393,,,,,,,False
+2026-11-10T21:00:00,17_ml_gradient_boosting_pm1_seleccion (AUC 0.492),2023-01-01,2025-04-04,0.5,,,,,,-67.592,-2.218,,,,,,,False
+2026-11-10T21:00:00,17_ml_gradient_boosting_abstencion_seleccion (AUC 0.492),2023-01-01,2025-04-04,0.5,,,,,,-37.581,-1.42,,,,,,,False
+2026-11-10T21:00:00,17_correlaciones_2005-2018 (descriptivo),2005-01-01,2018-12-31,,,,,,,,,,,,,,,False
+2026-11-10T21:00:00,17_correlaciones_seleccion (descriptivo),2023-01-01,2025-04-04,,,,,,,,,,,,,,,False
