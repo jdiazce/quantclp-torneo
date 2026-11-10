@@ -62,3 +62,8 @@ data/                  (vacío) aquí va la base del torneo
   y se evaluó una sola vez en el holdout (04b–04c).
 - `experimentos/registro_experimentos.csv` lista todos los intentos (53), incluidos
   los descartados.
+
+
+  ## Requisitos
+- Python ≥ 3.11
+- Instalar dependencias: `pip install -r requirements.txt`
